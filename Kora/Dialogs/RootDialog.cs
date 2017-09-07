@@ -21,22 +21,8 @@ namespace Kora.Dialogs
             string text = activity.Text;
             string answer = string.Empty;
 
-            if (text.StartsWith("/add"))
-            {
-
-            }
-            else if (text.StartsWith("/list"))
-            {
-
-            }
-            else if (text.StartsWith("/complete"))
-            {
-
-            }
-
             // return our reply to the user
             await context.PostAsync(answer);
-            //await context.PostAsync($"You sent {activity.Text} which was {length} characters");
 
             context.Wait(MessageReceivedAsync);
         }
