@@ -39,11 +39,6 @@ namespace Kora.Dialogs
                     answer = GetCommandNotIdentifiedAnswer(command);
                 }
             }
-            else
-            {
-
-            }
-
 
             // return our reply to the user
             await context.PostAsync(answer);
