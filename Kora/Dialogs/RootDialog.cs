@@ -21,6 +21,9 @@ namespace Kora.Dialogs
             string text = activity.Text;
             string answer = string.Empty;
 
+
+
+
             // return our reply to the user
             await context.PostAsync(answer);
 
