@@ -56,5 +56,11 @@ namespace Kora
 
             return null;
         }
+        
+        void SumTwoNumbers(int a, int b)
+        {
+            int c = a + b;
+            return c;
+        }
     }
 }
